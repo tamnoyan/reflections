@@ -2,5 +2,9 @@
 create a new git file 
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
+working directory -> adding files to staging area -> create commit -> repository
 staging area show files that not in the working area yet,
 they help us decide if to create a repository with those files or not. 
+
+# How can you use the staging area to make sure you have one commit per logical change?
+check the changes using git diff --stage before commit
