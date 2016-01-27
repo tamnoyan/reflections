@@ -1,0 +1,6 @@
+# What happens when you initialize a repository? Why do you need to do it?
+create a new git file 
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area show files that not in the working area yet,
+they help us decide if to create a repository with those files or not. 
