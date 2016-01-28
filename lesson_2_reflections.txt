@@ -10,4 +10,7 @@ they help us decide if to create a repository with those files or not.
 check the changes using git diff --stage before commit
 
 # What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-in case we want try few new directions but we want to keep the main program as is in the meanwhile, and when we go up to production we can move to one of the branches, also we want to revert easily, we'll use it when we are working on a new feature, fixing a bug, experimental projects when we try all that we never hurt the master branch. 
+in case we want try few new directions but we want to keep the main program as is in the meanwhile, and when we go up to production we can move to one of the branches, also we want to revert easily, we'll use it when we are working on a new feature, fixing a bug, experimental projects when we try all that we never hurt the master branch.
+
+# How do the diagrams help you visualize the branch structure? 
+it's very helpful, it basically show u which branches u have, what and how many commits on each branch 
