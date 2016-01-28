@@ -14,3 +14,6 @@ in case we want try few new directions but we want to keep the main program as i
 
 # How do the diagrams help you visualize the branch structure? 
 it's very helpful, it basically show u which branches u have, what and how many commits on each branch 
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+combine to main branch, no need to keep few branches, also this is the way to do it when we want combine all new features from both branches 
