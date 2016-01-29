@@ -1,24 +1,32 @@
 # What happens when you initialize a repository? Why do you need to do it?
-create a new git file 
+create a new git repository, and hidden folder named .git is added which contains the required files for version history
+Without a repository, git cannot do anything. Git works only on git repositories
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 working directory -> adding files to staging area -> create commit -> repository
-staging area show files that not in the working area yet,
+
+working area are the files that we works on but didn't decide to upload them to staging area yet, 
+staging area show files that was upload from working directory but not in the repository yet, The staging area is like a monitored area by git, we can add and remove before create a commit to the repository.
 they help us decide if to create a repository with those files or not. 
 
 # How can you use the staging area to make sure you have one commit per logical change?
 check the changes using git diff --stage before commit
+you can split changed files in logical change sets.
 
 # What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 in case we want try few new directions but we want to keep the main program as is in the meanwhile, and when we go up to production we can move to one of the branches, also we want to revert easily, we'll use it when we are working on a new feature, fixing a bug, experimental projects when we try all that we never hurt the master branch.
 
 # How do the diagrams help you visualize the branch structure? 
 it's very helpful, it basically show u which branches u have, what and how many commits on each branch 
+see the relations between commits and branches, when and where specific change has occurred. 
+
 
 # What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 combine to main branch, no need to keep few branches, also this is the way to do it when we want combine all new features from both branches
+After a merge, all commits will be shown based on their timestamps in the git log. This will show the commits from the two different branches running through each other.
+
 
 # What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-automatic merge is good when there no special problems 
+automatic merge is good when there no special problems, it saves a lot of time compared to manually merge since you don't have to review all that code
 while merge manually we can check and be sure that we are merging only the code that want  like when we have a merging conflict because two people edit the some part of code and need to decide which code we'll stay, also merging is very important when we working on a side feature but want that branch to always be update with master code and features. 
   
