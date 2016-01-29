@@ -16,4 +16,9 @@ in case we want try few new directions but we want to keep the main program as i
 it's very helpful, it basically show u which branches u have, what and how many commits on each branch 
 
 # What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-combine to main branch, no need to keep few branches, also this is the way to do it when we want combine all new features from both branches 
+combine to main branch, no need to keep few branches, also this is the way to do it when we want combine all new features from both branches
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merge is good when there no special problems 
+while merge manually we can check and be sure that we are merging only the code that want  like when we have a merging conflict because two people edit the some part of code and need to decide which code we'll stay, also merging is very important when we working on a side feature but want that branch to always be update with master code and features. 
+  
